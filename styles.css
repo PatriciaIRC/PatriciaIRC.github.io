@@ -30,31 +30,35 @@ main {
     width: 100%;
     box-sizing: border-box;
   }
-
-h1 {
+  
+  h1 {
     font-size: 48px;
   }
   
   p {
     font-size: 20px;
   }
-
-  /* pictures */
-.pictures{
+  
+  .pictures {
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     padding: 20px;
     width: 100%;
     box-sizing: border-box;
-}
-div img {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-right: 40px;
   }
+  
+  div img {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+  
+  div img:last-child {
+    margin-right: 0;
+  }
+  
 
    /* footer */
 footer{
